@@ -1,0 +1,223 @@
+.form-div {
+  width: 80vh;
+}
+
+.control {
+  width: 80vh;
+}
+
+.btn {
+  width: 35vh;
+}
+
+select {
+  width: 80vh;
+  height: 7vh;
+  border: 1px solid lightgray;
+}
+
+select:hover {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.cources img {
+  height: 30vh;
+}
+
+.cources img:hover {
+  cursor: pointer;
+}
+
+.btnDiv button {
+  width: 75vh;
+}
+
+.result {
+  position: relative;
+  left: 0vh;
+  bottom: 5vh;
+  width: 27vh;
+  text-align: center;
+  height: 22vh;
+  background-color: #000814;
+  color: white;
+  border-radius: 10px;
+}
+
+.result span {
+  font-weight: bolder;
+  font-size: 16px
+}
+
+.result h3 {
+  color: yellow;
+}
+
+.login input {
+
+  width: 38vh;
+  height: 40px;
+  color: white;
+  border: 2px solid gray;
+  background-color: transparent !important;
+}
+
+.login input::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.login {
+  width: 75vh;
+  position: relative;
+  left: 0vh;
+  width: 52vh;
+  background-color: #222327;
+  color: aliceblue;
+}
+
+.login button {
+  width: 30vh;
+  margin-left: 30px;
+}
+
+.leftbtn {
+  float: right;
+}
+
+table tr .hover {
+  cursor: pointer;
+}
+
+.containers {
+  margin-top: 15vh;
+  margin-left: 74vh;
+  background-color: #014f86;
+  border: #222327 1px solid;
+  color: white;
+  width: 58vh;
+  height: 55vh;
+}
+
+.gif {
+  width: 100%;
+}
+
+.main-ul li {
+  display: flex;
+  background-color: white;
+  
+}
+.insticolor{
+background-color: #8d99ae;
+}
+.admincolor{
+  background-color: #343a40;
+  }
+.contained {
+  background-color: #e9ecef;
+  color: black;
+  width: 48vh;
+  height: 60vh;
+  box-shadow: rgb(98, 93, 93) 3px 20px 15px 0.1px;
+  border: #000814 1px solid;
+}
+
+.contained .bottom ul {
+  height: 28vh;
+}
+
+.contained .btns {
+  background-color: #023e8a;
+  color: white;
+}
+
+.contained .btns:hover {
+  background-color: #1a659e;
+  color: white;
+}
+
+.control-input {
+  width: 28vh;
+  border: black 1px solid;
+}
+
+@media(max-width: 676px) {
+  .login button {
+    width: 29vh;
+    margin-left: 10px;
+  }
+
+  .contained .bottom {
+    height: 25vh;
+  }
+
+  .containers {
+    margin-top: 0vh;
+    margin-left: 0vh;
+    background-color: #00509d;
+    border: #222327 1px solid;
+    color: white;
+    width: 55vh;
+    height: 55vh;
+  }
+
+  .login input {
+    width: 32vh;
+  }
+
+  .login {
+    width: 43vh;
+    position: static;
+    left: 0px
+  }
+
+  .form-div {
+    width: 45vh;
+  }
+
+  .btnDiv button {
+    width: 45vh;
+  }
+
+  .control {
+    width: 45vh;
+  }
+
+  select {
+    width: 45vh;
+    height: 5vh;
+  }
+}
+
+
+.navsearch{
+  width: 180vh;
+}
+.navbar{
+  width: 100%;
+}
+.detailimg{
+width:50vh;
+height: 30vh;
+}
+.center{
+  text-align: center;
+      }
+@media(max-width: 676px) {
+  .navsearch{
+    width: 42vh;
+    align-items: center;
+  } 
+  .center{
+text-align: center;
+    }
+}
